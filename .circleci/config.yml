@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: install dependencies
-          command: pip install requests
+          command: pip install -r requirements.txt
                    python bot.py
 
 workflows:
