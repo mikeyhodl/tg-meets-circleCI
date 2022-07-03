@@ -1,6 +1,6 @@
 import requests
 
-api = "APIHERE"
+api = "${{ secrets.API_KEY }}"
 
 def toTg():
 	image = "https://images.pexels.com/photos/1580625/pexels-photo-1580625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
