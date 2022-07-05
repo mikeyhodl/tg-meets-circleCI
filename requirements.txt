@@ -1,0 +1,3 @@
+schedule
+flask
+python-dotenv
